@@ -1,1 +1,26 @@
-
+.header{
+    background: #2D2520;
+    color: white!important;
+    font-size: 18px;
+}
+.navbar-light .navbar-brand{
+    color: white!important;
+    font-size: 25px!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+    font-size: 22px!important;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 2rem!important;
+    padding-left: 2rem!important;
+}
+.container {
+    background: #545b62;
+}
+.card-text{
+    font-size: 25px!important;
+}
+.table{
+    font-size: 25px!important;
+}

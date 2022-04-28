@@ -36,14 +36,14 @@ function App(){
 
     return (
       <div>
-          <Navbar bg="light" expand="md">
-            <Navbar.Brand>Todo List</Navbar.Brand>
+           <Navbar  className="header" expand="md">
+            <Navbar.Brand>Social Site</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 {/* <Link className="nav-link" to="/view">View</Link> */}
-                <Link className="nav-link" to="/add">Add</Link>
+                <Link className="nav-link" to="/add">Add new post</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
